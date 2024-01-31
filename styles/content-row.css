@@ -32,6 +32,7 @@
 .rank {
     height: 150px;
     position: relative;
+    /* width: 22%; */
 }
 
 .rank svg {
@@ -41,23 +42,33 @@
     right: auto;
     bottom: 0;
     width: 50%;
+    /* height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    z-index: 1; */
 }
 
 .rank img {
     position: absolute;
     top: 0;
-    bottom: 0;
-    right: 0;
     left: auto;
+    right: 0;
+    bottom: 0;
     width: 50%;
     height: 100%;
     background-size: cover;
     object-fit: cover;
+    /* z-index: 0; */
 }
 
 @media only screen and (max-width: 800px) {
     .content {
         margin-right: 0;
         width: 30%;
+    }
+
+    .rank {
+        height: 20vw;
+        width: 30vw;
     }
 }

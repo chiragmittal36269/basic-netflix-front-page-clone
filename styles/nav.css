@@ -61,4 +61,17 @@ nav {
     .hide {
         display: none;
     }
+
+    .brand {
+        width: 10vw;
+    }
+
+    .nav-icons {
+        gap: 15px;
+    }
+
+    .icon svg {
+        width: 4vw;
+        height: 4vw;
+    }
 }
