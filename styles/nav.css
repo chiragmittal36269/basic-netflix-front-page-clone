@@ -1,0 +1,64 @@
+nav {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 1.5vw 4vw;
+    font-size: 1.2vw;
+    z-index: 100;
+    transition: all 0.5s;
+}
+
+.nav-dark {
+    background-color: black;
+}
+
+.left {
+    align-items: center;
+}
+
+.brand {
+    width: 100px;
+    height: auto;
+}
+
+.nav-items {
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
+    margin-left: 2vw;
+}
+
+.nav-icons {
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    align-items: center;
+}
+
+.small {
+    display: none;
+    font-size: 2vw;
+}
+
+.hide {
+    display: block;
+}
+
+@media only screen and (max-width: 800px) {
+    .small {
+        display: block;
+        margin: 2vw;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .hide {
+        display: none;
+    }
+}
