@@ -97,4 +97,9 @@
     .bg-image {
         height: 100%;
     }
+
+    .info-btn svg {
+        width: 2.5vw;
+        height: 2.5vw;
+    }
 }
